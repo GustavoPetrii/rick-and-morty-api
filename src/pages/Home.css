@@ -1,0 +1,89 @@
+.title {
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.container_card {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container_pesquisa {
+    display: flex;
+    gap: 10px;
+}
+
+.input_pesquisar {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    height: 9px;
+}
+
+.botao_pesquisar {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    height: 26px;
+}
+
+.dropdown {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 26px;
+    width: 90px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+}
+
+.img_person {
+    width: 100px;
+    height: 100px;
+    border-radius: 3rem;
+}
+
+.detail_card {
+    justify-content: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
